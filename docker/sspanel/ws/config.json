@@ -18,6 +18,24 @@
   "log": {
     "loglevel": "debug"
   },
+  "dns": {
+    "servers": [
+      {
+        "address": "8.8.8.8",
+        "port": 53,
+        "domains": [
+          "domain:netflix.com",
+          "domain:netflix.net",
+          "domain:nflximg.net",
+          "domain:nflxvideo.net",
+          "domain:nflxso.net",
+          "domain:nflxext.com"
+        ]
+      },
+      "1.0.0.1",
+      "8.8.8.8"
+    ]
+  },
   "api": {
     "tag": "api",
     "services": [
