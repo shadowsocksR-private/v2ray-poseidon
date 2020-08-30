@@ -11,7 +11,7 @@
       "maxOnlineIPCount": 0,  // 用户同时在线 IP 数限制 0 表示不限制
       "speedLimit": 0         // 用户限速 单位 字节/s 0 表示不限速
     },
-
-    "localPort": 10084 // 本地 api, dokodemo-door,　监听在哪个端口，不能和服务端口相同
+    // 是否通过 HAProxy 代理协议，获取用户的真实 IP
+    "acceptProxyProtocol": false
   }
 }
